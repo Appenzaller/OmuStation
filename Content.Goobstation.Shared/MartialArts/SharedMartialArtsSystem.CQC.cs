@@ -19,6 +19,7 @@ using Content.Goobstation.Common.MartialArts;
 using Content.Goobstation.Maths.FixedPoint;
 using Content.Goobstation.Shared.MartialArts.Components;
 using Content.Goobstation.Shared.MartialArts.Events;
+using Content.Shared._Goobstation.Heretic.Components;
 using Content.Shared._Shitmed.Medical.Surgery.Traumas;
 using Content.Shared._Shitmed.Medical.Surgery.Traumas.Components;
 using Content.Shared._Shitmed.Medical.Surgery.Wounds.Components;
@@ -214,6 +215,7 @@ public partial class SharedMartialArtsSystem
 
         RemComp<MartialArtsKnowledgeComponent>(user);
         RemComp<CanPerformComboComponent>(user);
+        RemComp<RiposteeComponent>(user);
     }
 
     #endregion
